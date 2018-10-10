@@ -1,4 +1,4 @@
-from test_framework import generic_test
+from epi_judge_python.test_framework import generic_test
 
 
 def generate_first_k_a_b_sqrt2(k):
