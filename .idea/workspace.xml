@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcf25d06-4fb6-486c-9289-6e72424dcec5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi_judge_python/a_b_sqrt2.py" beforeDir="false" afterPath="$PROJECT_DIR$/epi_judge_python/a_b_sqrt2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi_judge_python/count_bits.py" beforeDir="false" afterPath="$PROJECT_DIR$/epi_judge_python/count_bits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi_judge_python/count_inversions.py" beforeDir="false" afterPath="$PROJECT_DIR$/epi_judge_python/count_inversions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epi_judge_python/parity.py" beforeDir="false" afterPath="$PROJECT_DIR$/epi_judge_python/parity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epi_judge_python/swap_bits.py" beforeDir="false" afterPath="$PROJECT_DIR$/epi_judge_python/swap_bits.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +25,8 @@
       <file leaf-file-name="parity.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/epi_judge_python/parity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state>
+              <caret column="21" selection-start-column="5" selection-end-column="21" />
               <folding>
                 <element signature="e#209#322#0" />
                 <element signature="e#339#448#0" />
@@ -41,7 +37,11 @@
       </file>
       <file leaf-file-name="swap_bits.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/epi_judge_python/swap_bits.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,6 +56,7 @@
         <option value="$PROJECT_DIR$/epi_judge_python/count_inversions.py" />
         <option value="$PROJECT_DIR$/epi_judge_python/count_bits.py" />
         <option value="$PROJECT_DIR$/epi_judge_python/parity.py" />
+        <option value="$PROJECT_DIR$/epi_judge_python/swap_bits.py" />
       </list>
     </option>
   </component>
@@ -104,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.parity">
+  <component name="RunManager" selected="Python.swap_bits">
     <configuration name="a_b_sqrt2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EPIPythonJudge" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,14 +178,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="swap_bits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EPIPythonJudge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/epi_judge_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/epi_judge_python/swap_bits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.a_b_sqrt2" />
       <item itemvalue="Python.count_inversions" />
       <item itemvalue="Python.count_bits" />
       <item itemvalue="Python.parity" />
+      <item itemvalue="Python.swap_bits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.swap_bits" />
         <item itemvalue="Python.parity" />
         <item itemvalue="Python.count_bits" />
         <item itemvalue="Python.count_inversions" />
@@ -209,10 +230,10 @@
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Python Console" order="0" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
@@ -255,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/epi_judge_python/parity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state>
+          <caret column="21" selection-start-column="5" selection-end-column="21" />
           <folding>
             <element signature="e#209#322#0" />
             <element signature="e#339#448#0" />
@@ -265,7 +286,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/epi_judge_python/swap_bits.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
